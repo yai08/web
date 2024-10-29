@@ -1,0 +1,28 @@
+
+.navbar {
+    display:flex;
+    justify-content:space-between;
+    height:110px;
+    background-color:#1b1b1b;
+}
+
+.navbar-logo{
+    font-size:26px;
+    font-family:sans-serif;
+    justify-self:start;
+    margin-left:20px;
+    color: #fff;
+    margin-top:4vh;
+    cursor:pointer;
+}
+
+.seeCarrito {
+    font-size:35px;
+    margin-right:70px;
+    margin-top:4vh;
+    cursor:pointer;
+    text-decoration:none;
+}
+
+
+   

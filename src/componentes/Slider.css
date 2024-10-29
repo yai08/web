@@ -1,0 +1,86 @@
+ul,  
+li {  
+    list-style: none;  
+    white-space: nowrap; /* Mantener el contenido en una sola línea */  
+    padding: 0; /* Eliminar padding */  
+    margin: 0;  /* Eliminar margen */  
+}  
+
+li {  
+    display: inline-block; /* Cambiado a inline-block para controlar mejor el espaciado */  
+}  
+
+img {  
+    object-fit: cover; /* Mantener la propiedad cover para que la imagen se ajuste correctamente */  
+    height: auto; /* Cambiar a auto para que la altura sea proporcional */  
+    width: 100%; /* Usar 100% para que se adapte al contenedor */  
+    margin: 0; /* Eliminar márgenes innecesarios */  
+}  
+
+.main-container {  
+    object-fit: contain;  
+    max-height: 600px; /* Máxima altura para el contenedor */  
+    overflow: hidden; /* Oculta el contenido que se desborda */  
+    padding: 0; /* Asegurarse de que no haya padding */  
+    width: 100%; /* El contenedor debe ocupar el 100% de su padre */  
+}  
+
+.slider-container {  
+    position: relative;  
+    height: auto; /* Cambiar a auto para adaptarse a las imágenes */  
+    max-width: 1600px; /* Máxima anchura para el slider */  
+    margin: 0 auto; /* Centrar el slider horizontalmente */  
+}  
+
+.container-images {  
+    width: 100%; /* Usar 100% para que el contenedor de imágenes se ajuste al ancho */  
+    height: auto; /* Cambiar a auto para que la altura se ajuste */  
+    display: flex; /* Usar flexbox para alinear las imágenes horizontalmente */  
+    transition: transform 0.5s ease; /* Agregar transición suave para el movimiento del slider */  
+}  
+
+.leftArrow,  
+.rightArrow {  
+    position: absolute;  
+    top: 50%;  
+    transform: translateY(-50%);  
+    font-size: 50px;  
+    font-weight: 700;  
+    color: #fff;  
+    z-index: 1;  
+    cursor: pointer;  
+}  
+
+.leftArrow {  
+    left: 16px; /* Ajustar a posición izquierda */  
+}  
+
+.rightArrow {  
+    right: 16px; /* Ajustar a posición derecha */  
+}  
+
+.dots-container {  
+    display: flex;  
+    justify-content: center;  
+    padding: 10px 0; /* Espaciado alrededor de los puntos */  
+}  
+
+.dot-container-item {  
+    margin: 0 5px; /* Ajustar margen para los puntos */  
+    cursor: pointer;  
+    font-size: 12px;  
+    text-align: center;  
+    color: black;  
+}  
+
+/* Estilos adicionales para mejor responsividad */  
+@media (max-width: 768px) {  
+    .leftArrow,  
+    .rightArrow {  
+        font-size: 30px; /* Ajustar tamaño de flechas para pantallas más pequeñas */  
+    }  
+    
+    .dot-container-item {  
+        font-size: 10px; /* Tamaño más pequeño para puntos en dispositivos móviles */  
+    }  
+}

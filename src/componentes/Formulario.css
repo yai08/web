@@ -1,0 +1,227 @@
+.contenedor-form {  
+  position: relative; 
+  cursor:pointer;
+  margin: 50px auto; /* Centramos el contenedor en el medio de la pantalla */  
+  width: 90%; /* Usar un 90% del ancho de la pantalla */  
+  max-width: 440px; /* Mantener un ancho máximo para pantallas grandes */  
+  height:700px; /* Cambiar la altura a auto para que se ajuste al contenido */  
+  border-radius: 8px; /* Eliminar la doble propiedad de border-radius */  
+  box-shadow: 0 0 50px blue;  
+  overflow: hidden;  
+  background: black;  
+  padding: 20px; /* Añadir un poco de espacio en el interior */  
+  box-sizing: border-box; /* Asegurarse de que el padding no afecte al ancho total */  
+}
+
+
+  
+  @keyframes animate {
+    100%{
+      filter:hue-rotate(360deg)
+    }
+  }
+  
+  .contenedor-form:hover {
+  animation: animate 1s linear infinite;
+  }
+  
+  h2{
+    text-align:center;
+    padding-bottom:15%;
+    padding-top:15%;
+    color:white;
+  }
+  
+  .nombre-cli{
+    color:white;
+    font-size:16px;
+   display:flex;
+   justify-content:space-evenly;
+   align-items:center;
+   position: relative;
+   
+  }
+
+  .nombre{
+   border:none;
+   text-align:center;
+   font-size:15px;
+   border-bottom:2px solid blue;
+   width:140px;
+   box-shadow: none;
+   outline: none;
+   background:transparent;
+   color:white;
+  }
+
+  .canti-tick{
+    color:white;
+    bottom:20px;
+    font-size:16px;
+   display:flex;
+   justify-content:space-evenly;
+   align-items:center;
+   position: relative;
+  }
+
+  .tickets{
+    border:none;
+    text-align:center;
+    font-size:15px;
+    border-bottom:2px solid blue;
+    width:140px;
+    box-shadow: none;
+    outline: none;
+    background:transparent;
+    color:white;
+
+  }
+  
+  .correo-elec{
+    color:white;
+    font-size:16px;
+   display:flex;
+   justify-content:space-evenly;
+   align-items:center;
+   position: relative;
+   margin-top:35px;
+  }
+  
+  
+  .fecha{
+   
+    border:none;
+    text-align:center;
+    font-size:15px;
+    border-bottom:2px solid blue;
+    width:140px;
+    box-shadow: none;
+    outline: none;
+    background:transparent;
+    color:white;
+  }
+  
+  
+  .numero-tlf{
+    color:white;
+    font-size:16px;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    position: relative;
+    margin-top:35px;
+   
+  
+  }
+  
+  .estatura{
+    color: white;
+    text-align:center ;
+    font-size:15px;
+    border:none;
+    border-bottom:2px solid blue;
+    width:140px;
+     box-shadow: none;
+     outline: none;
+     background:transparent;
+    
+    
+  }
+  
+  .metodo-pago{
+    color:white;
+    font-size: 16px;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    position: relative;
+    margin-top:35px;
+    background:transparent;
+   
+   
+  
+  }
+
+  .pago{
+    
+    color: white;
+    text-align:center;
+    font-size:15px;
+    border:none;
+    border-bottom:2px solid blue;
+    width:140px;
+    box-shadow: none;
+    outline: none;
+    background:transparent;
+  }
+
+  .numero-oper{
+    color:white;
+    font-size: 16px;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    position: relative;
+    margin-top:35px;
+    background:transparent;
+   
+
+  }
+
+
+  .operacion{
+    border:none;
+    text-align:center;
+    font-size:15px;
+    border-bottom:2px solid blue;
+    width:140px;
+    box-shadow: none;
+    outline: none;
+    background:transparent;
+    color:white;
+
+  }
+
+  
+  .boton-formulario {
+  border-radius:10px;
+  height:40px;
+  width:100px;
+  background-color:black;
+  color:white;
+  font-weight:bold;
+  font-size:18px;
+  border-color:rgb(26, 14, 166);
+  margin-top:15%;
+  margin-left:40%;
+  position:absolute;
+  top:540px;
+  
+  }
+  
+  .boton-formulario:hover{
+    color:red;
+   
+  }
+
+  .info-box {
+    background-color:black;
+    padding: 10px;
+    border: 3px solid #f8f3f3;
+    border-radius: 5px;
+    margin: 10px 0;
+    position:absolute;
+    top:50px;
+    left:85px;
+    border-radius:8px;
+    text-align:center;
+    width:200px;
+  
+  }
+
+ 
+
+
+ 
+
+ 
