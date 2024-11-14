@@ -65,7 +65,7 @@ const Formulario = () => {
         setInfoMetodoPago(<div className='info-box'>Id pay Binance: 213271601 Correo: luismiguelziik@gmail.com</div>);  
         break;  
       case 'Pago Movil':  
-        setInfoMetodoPago(<div className='info-box'>0102 Venezuela, Cedula: 26937816, Telefono: 0412535827</div>);  
+        setInfoMetodoPago(<div className='info-box'>0102 Venezuela, Cedula: 26937816, Telefono: 04125358270</div>);  
         break;  
       case 'Zelle':  
         setInfoMetodoPago(<div className='info-box'>BENQ.2704@gmail.com Rodolfo Castro</div>);  
