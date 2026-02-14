@@ -1,16 +1,16 @@
 .contenedor-form {  
   position: relative; 
   cursor:pointer;
-  margin: 50px auto; /* Centramos el contenedor en el medio de la pantalla */  
-  width: 90%; /* Usar un 90% del ancho de la pantalla */  
-  max-width: 440px; /* Mantener un ancho máximo para pantallas grandes */  
-  height:700px; /* Cambiar la altura a auto para que se ajuste al contenido */  
-  border-radius: 8px; /* Eliminar la doble propiedad de border-radius */  
+  margin: 50px auto;  
+  width: 90%; 
+  max-width: 440px; 
+  height:700px; 
+  border-radius: 8px; 
   box-shadow: 0 0 50px blue;  
   overflow: hidden;  
   background: black;  
-  padding: 20px; /* Añadir un poco de espacio en el interior */  
-  box-sizing: border-box; /* Asegurarse de que el padding no afecte al ancho total */  
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 
